@@ -1,2 +1,10 @@
-let hello = "Hello World";
-alert(hello);
+let orange = 200;
+let apple = 100;
+
+if(orange < apple){
+    alert('みかんの値段がリンゴより安い');
+}else if(orange == apple){
+    alert('みかんとりんごが同じ値段');
+}else{
+    alert('みかんの値段がリンゴより高い');
+}
