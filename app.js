@@ -1,10 +1,7 @@
-let orange = 200;
-let apple = 100;
+let add = 6+8;
+let sub = 8-6;
+let mul = 6*8;
+let div = 12/3;
 
-if(orange < apple){
-    alert('みかんの値段がリンゴより安い');
-}else if(orange == apple){
-    alert('みかんとりんごが同じ値段');
-}else{
-    alert('みかんの値段がリンゴより高い');
-}
+alert('6+8='+add+','+'8-6='+sub+','+'6*8='+mul+','+'12/3='+div);
+
