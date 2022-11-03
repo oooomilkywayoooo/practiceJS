@@ -1,7 +1,12 @@
-let add = 6+8;
-let sub = 8-6;
-let mul = 6*8;
-let div = 12/3;
+// メイン部分
+let alertString;
+alertString = addString("WebCamp");
 
-alert('6+8='+add+','+'8-6='+sub+','+'6*8='+mul+','+'12/3='+div);
+// 作成した関数を呼び出す
+alert(alertString);
 
+// 作成した関数
+function addString(strA){
+    let addStr = "Hello" + strA;
+    return addStr;
+}
