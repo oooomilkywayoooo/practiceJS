@@ -1,6 +1,9 @@
 /*global $*/
 $(function(){
-  $('.box1').on('click',function(){
-    $(this).slideUp();
+  $('.open').on('click',function(){
+    $('ul').children().slideDown();
+  });
+  $('.close').on('click',function(){
+    $('ul').children().slideUp();
   });
 });
